@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    height: 200vh;
+}
+li{
+    display: inline-block;
+    padding: 12px 15px;
+}
+ul{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    /* font-size: medium;
+    color: slategrey; */
+}
+a:hover{
+    color: #286efb;
+    text-decoration: solid 2px #286efb;
+}
+.a1{
+    margin: 0px 20px 0px 0px;
+    text-decoration: none;
+    color: slategrey;
+}
+.b2{
+    position: absolute;
+    right: 64px;
+    top: 9px;
+    background-color: #286efb;
+    border-radius: 5px;
+    color: whitesmoke;
+    color: whitesmoke;
+    border:  2px solid whitesmoke;
+    font-size: 15px;
+}
+.b1{
+    position: absolute;
+    border:  2px solid whitesmoke;
+    top: 9px;
+    right: 190px;
+    border-radius: 5px;
+    color: #286efb;
+    font-size: 15px;
+
+}
+
+button{
+
+margin: 0px 5px;
+padding: 4px 16px;
+
+}
+#img1 {
+    position: relative;
+    height: 35px;
+    bottom: 39px;
+    left: 80px;
+}
+header{
+    height: 51px;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    box-shadow: 0px 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.home{
+    text-decoration: none;
+    font-size: medium;
+    color: slategrey;
+}
+.hame{
+    color: #286efb;
+}
+.b1:hover{
+    background-color: #286efb;
+    color: white;
+}
+.b2:hover{
+    box-shadow: 2px 2px;
+}
+/* .text{
+    display: inline-block;
+    
+}
+.img{
+    display: inline-block;
+} */
+.conntainer{
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+          "t  i"
+          "t i";
+     
+}
+
+.text{
+    grid-area: t;
+    position: relative;
+    top: 87px;
+    left: 113px;
+}
+
+.text h1{
+    font-size: 65px;
+    color: rgb(19, 28, 37);
+}
+.text p{
+    font-size: 25px;
+    color: rgb(53, 70, 87);
+}
+.img{
+    grid-area: i;
+}
+
+
+
+.b3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: #286efb;
+    color: white;
+    padding: 10px 8px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.b4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #286efb;
+    padding: 10px 8px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.b4:hover{
+    background-color: #286efb;
+    color: white;
+}
+.line{
+    height: 0.5px;
+    background-color: rgba(53, 70, 87, 0.212);;
+}
+.loder{
+    background-color: #286efb;
+    animation: loder 3s ease-in-out ;
+}
+@keyframes loder {
+    from{
+        height: 3px;
+        width: 0px;
+    }
+    to{
+        height: 3px;
+        width: 100vw;
+    }
+}
+.services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.services h1{
+    font-size: 28px;
+    color: #2d343e;
+    text-align: center;
+}
+.services p{
+    color: #6a747b;
+    text-align: center;
+}
+
+.imge img{
+    position: relative;
+    left: 185px;
+    bottom: 40px;
+    /* padding: 20px; */
+    margin: 95px;
+    padding: 10px;
+    height: 150px;
+
+}
+/* .i1{
+    position: relative;
+    left: 200px;
+} */
+.img1{
+    display: inline-block;
+    
+}
+.img1 p{
+    position: relative;
+    left: 185px;
+    bottom: 105px;
+}
+.img2{
+    display: inline-block;
+}
+.img2 p{
+    position: relative;
+    left: 176px;
+    bottom: 105px;
+}
+.img3{
+    display: inline-block;
+}
+.img3 p{
+    position: relative;
+    left: 185px;
+    bottom: 105px;
+}
+.ad{
+    height: 50vh;
+   background: url(Screenshot_5.png) no-repeat;
+   font-family: 'Alata', sans-serif;
+   color: #f6f9fc;
+   text-align: center;
+   
+}
+.ad h3{
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    height: 70vh;
+    background-color: white;
+    margin: 90px;
+}
+footer img{
+    height: 30px;
+}
+.f1{
+    display: inline-block;
+}
+.pages {
+    display: inline-block;
+    position: absolute;
+    left: 650px;
+}
+.re {
+    display: inline-block;
+    position: absolute;
+    left: 1005px;
+}
+
+.fa {
+    /* height: 100vh; */
+    padding: 0px;
+    /* margin: -22px; */
+    font-size: 30px;
+    width: 55px;
+    /* text-align: center; */
+    text-decoration: none;
+    color: black;
+    /* font-size: 20px; */
+}
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+footer p{
+    color: #6a747b;
+    line-height: 26px;
+    font-size: 16px;
+}
+
